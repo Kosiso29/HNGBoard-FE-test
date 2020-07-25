@@ -49,34 +49,22 @@ body{
   color: #04172A;
 }
 .analyticsh2-2{
-  position: absolute;
-  width: 146px;
-  height: 23px;
-  left: 732.5px;
   top: 166px;
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
-
-  color: #04172A;
 }
 .analyticsp-2{
-  position: absolute;
-  width: 127px;
-  height: 21px;
-  left: 732.5px;
   top: 191px;
-  font-family: 'DM Sans', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
-
-  /* identical to box height */
-
-  color: #04172A;
+}
+.analyticsh2-3{
+  top: 239px;
+}
+.analyticsp-3{
+  top: 264px;
+}
+.analyticsh2-4{
+  top: 312px;
+}
+.analyticsp-4{
+  top: 337px;
 }
 .analytics{
   position: absolute;
