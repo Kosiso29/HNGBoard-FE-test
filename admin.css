@@ -154,6 +154,27 @@ body{
   top: 111px;
   color: #FF0000;
 }
+.internsData-p11{
+  position: absolute;
+  width: 80.1px;
+  height: 40.11px;
+  left: 37px;
+  top: 131px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #FF9501;
+}
+.internsData-p21{
+  left: 218px;
+}
+.internsData-p31{
+  left: 365px;
+}
 .channels{
   position: absolute;
   width: 530px;
@@ -200,6 +221,27 @@ body{
   top: 110px;
   color: #FF0C0C;
 }
+.channels-p11{
+  position: absolute;
+  width: 37.96px;
+  height: 42.34px;
+  left: 21px;
+  top: 131px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #FF9501;
+}
+.channels-p21{
+  left: 211px;
+}
+.channels-p31{
+  left: 323px;
+}
 .internsLocation{
   position: absolute;
   width: 530px;
@@ -225,11 +267,96 @@ body{
   left: 72px;
   top: 146px;
 }
-.internsLocationContainer1{
+.internsLocationContainer{
+  position: absolute;
   width: 436px;
   height: 30px;
   left: 35px;
   top: 359px;
+}
+.internsLocationContainer1{
+  position: absolute;
+  width: 436px;
+  height: 30px;
+  left: 35px;
+  top: 389px;
+}
+.internsLocationContainer2{
+  position: absolute;
+  width: 436px;
+  height: 30px;
+  left: 35px;
+  top: 419px;
+}
+.internsLocationContainer3{
+  position: absolute;
+  width: 436px;
+  height: 30px;
+  left: 35px;
+  top: 449px;
+}
+.internsLocationContainer4{
+  position: absolute;
+  width: 436px;
+  height: 30px;
+  left: 35px;
+  top: 479px;
+}
+.internsLocationContainer-p{
+  position: absolute;
+  width: 56.08px;
+  height: 21px;
+  left: 2px;
+  top: 2px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* identical to box height */
+
+  color: #04172A;
+}
+.internsLocationContainer-p1{
+  position: absolute;
+  width: 257.95px;
+  height: 3px;
+  left: 80px;
+  top: 10px;
+  z-index: 3;
+
+  background: #10A439;
+  border-radius: 15px;
+}
+.internsLocationContainer-p2{
+  position: absolute;
+  width: 280.39px;
+  height: 3px;
+  left: 90px;
+  top: 10px;
+  z-index: 1;
+
+  background: #CCCCCC;
+  border-radius: 15px;
+}
+.internsLocationContainer-p3{
+  position: absolute;
+  width: 37.39px;
+  height: 21px;
+  left: 400px;
+  top: 2px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* identical to box height */
+
+  color: #04172A;
 }
 .recent{
   position: absolute;
