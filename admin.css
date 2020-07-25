@@ -133,7 +133,7 @@ body{
   left: 37px;
   top: 111px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -161,7 +161,7 @@ body{
   left: 37px;
   top: 131px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -200,7 +200,7 @@ body{
   left: 21px;
   top: 110px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -228,7 +228,7 @@ body{
   left: 21px;
   top: 131px;
 
-  font-family: DM Sans;
+  font-family:'DM Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -309,7 +309,7 @@ body{
   left: 2px;
   top: 2px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -348,7 +348,7 @@ body{
   left: 400px;
   top: 2px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -400,7 +400,7 @@ body{
   left: 45px;
   top: 2px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -415,7 +415,7 @@ body{
   top: 22px;
   left: 45px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -430,7 +430,7 @@ body{
   left: 45px;
   top: 44px;
 
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -457,38 +457,137 @@ body{
 }
 
 @media (max-width: 1440px){
-  .channels{
-    width: calc((530/1440)*100vw);
+  .analytics-p{
+    width: calc((182/1440)*100vw);
+    left: 2px;
   }
-  .internsLocation{
-    width: calc((530/1440)*100vw);
-  }
-  .recent{
-    width: calc((530/1440)*100vw);
+  .analytics-p1{
+    width: calc((138/1440)*100vw);
+    left: 111px;
   }
   .analytics{
     width: calc((1067/1440)*100vw);
     height: 437px;
   }
+  .analyticsContainer{
+    width: calc((300/1440)*100vw);
+    left: calc((730/1440)*100vw);
+  }
+  .analytics-img{
+    width: calc((639/1440)*100vw);
+    left: calc((38/1440)*100vw);
+  }
+  .analytics h1{
+    left: calc((38/1440)*100vw);
+  }
   .internsData{
     width: calc((530/1440)*100vw);
     height: 252px;
+  }
+  .internsData h1{
+    left: calc((38/1440)*100vw);
+  }
+  .internsData-p1{
+    width: 131px;
+    left: calc((38/1440)*100vw);
+  }
+  .internsData-p2{
+    width: 96px;
+    left: calc((218/1440)*100vw);
+  }
+  .internsData-p3{
+    width: calc((88/1440)*100vw);
+    left: calc((365/1440)*100vw);
+  }
+  .internsData-p11{
+    width: 80.1px;
+    left: calc((38/1440)*100vw);
+  }
+  .internsData-p21{
+    left: calc((218/1440)*100vw);
+  }
+  .internsData-p31{
+    left: calc((365/1440)*100vw);
   }
   .channels{
     width: calc((530/1440)*100vw);
     height: 252px;
     left: calc((543/1440)*100vw);
   }
+  .channels h1{
+    left: calc((13/1440)*100vw);
+  }
+  .channels-p1{
+    left: calc((21/1440)*100vw);
+  }
+  .channels-p2{
+    left: calc((231/1440)*100vw);
+  }
+  .channels-p3{
+    left: calc((343/1440)*100vw);
+  }
+  .channels-p11{
+    left: calc((21/1440)*100vw);
+  }
+  .channels-p21{
+    left: calc((231/1440)*100vw);
+  }
+  .channels-p31{
+    left: calc((343/1440)*100vw);
+  }
   .internsLocation{
     width: calc((530/1440)*100vw);
     height: 570px;
+  }
+  .internsLocation h1{
+    left: calc((35/1440)*100vw);
+  }
+  .internsLocation-img{
+    width: calc((384/1440)*100vw);
+    left: calc((72/1440)*100vw);
+  }
+  .internsLocationContainer{
+    width: calc((436/1440)*100vw);
+    left: calc((35/1440)*100vw);
+  }
+  .internsLocationContainer1{
+    left: calc((35/1440)*100vw);
+  }
+  .internsLocationContainer2{
+    left: calc((35/1440)*100vw);
+  }
+  .internsLocationContainer3{
+    left: calc((35/1440)*100vw);
+  }
+  .internsLocationContainer4{
+    left: calc((35/1440)*100vw);
+  }
+  .internsLocationContainer-p{
+    width: calc((56/1440)*100vw);
+  }
+  .internsLocationContainer-p1{
+    width: calc((257/1440)*100vw);
+  }
+  .internsLocationContainer-p2{
+    width: calc((280/1440)*100vw);
+    left: calc((90/1440)*100vw);
+  }
+  .internsLocationContainer-p3{
+    width: calc((37/1440)*100vw);
+    left: calc((400/1440)*100vw);
   }
   .recent{
     width: calc((530/1440)*100vw);
     height: 361px;
     left: calc((543/1440)*100vw);
   }
+  .recent h1{
+    left: calc((21/1440)*100vw);
+  }
   .copyright{
     left: calc((499/1440)*100vw);
   }
+}
+@media (max-width: 992px){
+
 }
