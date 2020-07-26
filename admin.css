@@ -72,11 +72,16 @@ body{
   width: 1067px;
   height: 437px;
   left: 0px;
-  top: 131px;
+  top: 0px/*131px*/;
 
   background: #FFFFFF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+}
+@-moz-document url-prefix() {
+  .analytics{
+    top: 131px;
+  }
 }
 .analyticsContainer{
   position: absolute;
@@ -113,11 +118,16 @@ body{
   width: 530px;
   height: 252px;
   left: 0px;
-  top: 627px;
+  top: 496px;
 
   background: #FFFFFF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+}
+@-moz-document url-prefix() {
+  .internsData{
+    top: 627px;
+  }
 }
 .internsData h1{
   position: absolute;
@@ -180,11 +190,16 @@ body{
   width: 530px;
   height: 252px;
   left: 543px;
-  top: 627px;
+  top: 496px;
 
   background: #FFFFFF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+}
+@-moz-document url-prefix() {
+  .channels{
+    top: 627px;
+  }
 }
 .channels h1{
   position: absolute;
@@ -247,11 +262,16 @@ body{
   width: 530px;
   height: 570px;
   left: 0px;
-  top: 943px;
+  top: 812px;
 
   background: #FFFFFF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+}
+@-moz-document url-prefix() {
+  .internsLocation{
+    top: 943px;
+  }
 }
 .internsLocation h1{
   position: absolute;
@@ -363,11 +383,16 @@ body{
   width: 530px;
   height: 361px;
   left: 543px;
-  top: 943px;
+  top: 812px;
 
   background: #FFFFFF;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
+}
+@-moz-document url-prefix() {
+  .recent{
+    top: 943px;
+  }
 }
 .recent h1{
   position: absolute;
@@ -443,7 +468,7 @@ body{
   width: 116px;
   height: 32px;
   left: 499px;
-  top: 1679px;
+  top: 1548px;
 
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
@@ -454,6 +479,11 @@ body{
   /* identical to box height, or 267% */
 
   color: rgba(0, 0, 0, 0.8);
+}
+@-moz-document url-prefix() {
+  .copyright{
+    top: 1679px;
+  }
 }
 
 @media (max-width: 1440px){
@@ -823,7 +853,7 @@ body{
     width: calc((344/375)*100vw);
     height: 340px;
     left: 14px;
-    top: 125px;
+    top: -100px;
 
     background: #FFFFFF;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -865,7 +895,7 @@ body{
     width: calc((344/375)*100vw);
     height: 177px;
     left: 14px;
-    top: 525px;
+    top: 300px;
 
     background: #FFFFFF;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -932,7 +962,7 @@ body{
     width: calc((344/375)*100vw);
     height: 177px;
     left: 14px;
-    top: 762px;
+    top: 537px; /*762px*/
 
     background: #FFFFFF;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -999,7 +1029,7 @@ body{
     width: calc((344/375)*100vw);
     height: 340px;
     left: 14px;
-    top: 999px;
+    top: 774px;/*999px*/
 
     background: #FFFFFF;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -1114,7 +1144,7 @@ body{
     width: calc((344/375)*100vw);
     height: 284px;
     left: 14px;
-    top: 1399px;
+    top: 1174px;/*1399px*/
 
     background: #FFFFFF;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -1196,7 +1226,7 @@ body{
     width: 116px;
     height: 32px;
     left: 129px;
-    top: 1704px;
+    top: 1479px;/*1704px*/
 
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -1212,10 +1242,6 @@ body{
 
 @media (max-width: 456px){
   .recentContainer-p2{
-    position: absolute;
-    width: 84px;
-    height: 16px;
-    left: 50px;
     top: 60px;
   }
 }
